@@ -177,7 +177,10 @@ dalfox file final_xss_targets.txt \
 
 📁 **Output:** `dalfox_results.txt`
 
----
+```
+sed 's/.*https/https/' dalfox_results.txt > cleandalfox.txt
+
+```
 
 ## 🧠 Workflow Summary
 
